@@ -5,13 +5,23 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite2</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
-  <fonts name="fonts"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_menu</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_menu</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\menu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
