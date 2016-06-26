@@ -22,7 +22,9 @@
     </scripts>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\fnt_menu</font>
+    <fonts name="Dan's Fonts">
+      <font>fonts\fnt_menu</font>
+    </fonts>
   </fonts>
   <objects name="objects">
     <objects name="Dan's Objects">
