@@ -5,26 +5,13 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\Spr_Player1</sprite>
-    <sprite>sprites\Spr_MenuCursor</sprite>
-  </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-  </backgrounds>
+  <sprites name="sprites"/>
+  <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\scr_menu.gml</script>
-  </scripts>
-  <fonts name="fonts">
-    <font>fonts\fnt_menu</font>
-  </fonts>
-  <objects name="objects">
-    <object>objects\Obj_Menu</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\Menu_1</room>
-  </rooms>
+  <scripts name="scripts"/>
+  <fonts name="fonts"/>
+  <objects name="objects"/>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
