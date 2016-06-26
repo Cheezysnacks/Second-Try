@@ -6,10 +6,14 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_menucursor</sprite>
+    <sprites name="Dan's Sprites">
+      <sprite>sprites\spr_menucursor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background1</background>
+    <backgrounds name="Dan's Backgrounds">
+      <background>background\background1</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -21,11 +25,13 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_menu</object>
+    <objects name="Dan's Objects">
+      <object>objects\obj_menu</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_menu</room>
     <rooms name="Dan's Rooms">
+      <room>rooms\room_menu</room>
       <room>rooms\next_room</room>
     </rooms>
   </rooms>
