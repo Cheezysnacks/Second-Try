@@ -56,8 +56,8 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Dan's Rooms">
-      <room>rooms\room_startmenu</room>
       <room>rooms\room_menu</room>
+      <room>rooms\room_startmenu</room>
       <room>rooms\next_room</room>
     </rooms>
     <rooms name="Chris's Rooms">
