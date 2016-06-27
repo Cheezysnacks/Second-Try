@@ -17,7 +17,7 @@
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Dan's Backgrounds">
-      <background>background\background1</background>
+      <background>background\bckgrnd_menu</background>
     </backgrounds>
     <backgrounds name="Chris backgrounds">
       <background>background\Bkg_createchar</background>
