@@ -52,9 +52,6 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <rooms name="Chris rooms">
-      <room>rooms\Rm_CreateChar</room>
-    </rooms>
     <rooms name="Dan's Rooms">
       <room>rooms\room_menu</room>
       <room>rooms\next_room</room>
