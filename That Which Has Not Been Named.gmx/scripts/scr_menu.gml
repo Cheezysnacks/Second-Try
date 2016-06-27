@@ -8,4 +8,3 @@ switch(mpos)
     case 3: game_end(); break;
     default: break;
 }
-
