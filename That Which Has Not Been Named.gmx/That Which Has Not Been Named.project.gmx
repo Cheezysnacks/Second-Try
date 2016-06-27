@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\Spr_Female</sprite>
+    <sprite>sprites\Spr_Male</sprite>
+    <sprite>sprites\Spr_Arrow</sprite>
     <sprites name="Dan's Sprites">
       <sprite>sprites\spr_menucursor</sprite>
     </sprites>
@@ -14,29 +17,36 @@
     <backgrounds name="Dan's Backgrounds">
       <background>background\background1</background>
     </backgrounds>
+    <background>background\Bkg_createchar</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Dan's Script">
       <script>scripts\scr_menu.gml</script>
     </scripts>
+    <script>scripts\Scr_CreateChar.gml</script>
   </scripts>
   <fonts name="fonts">
     <fonts name="Dan's Fonts">
       <font>fonts\fnt_menu</font>
     </fonts>
+    <font>fonts\Fnt_CreateChar</font>
   </fonts>
   <objects name="objects">
     <objects name="Dan's Objects">
       <object>objects\obj_menu</object>
       <object>objects\obj_startmenu</object>
     </objects>
+    <object>objects\Obj_Player</object>
+    <object>objects\Obj_Character</object>
+    <object>objects\Obj_CreateChar</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Dan's Rooms">
       <room>rooms\room_menu</room>
       <room>rooms\next_room</room>
     </rooms>
+    <room>rooms\Rm_CreateChar</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
