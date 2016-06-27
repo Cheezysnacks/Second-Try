@@ -27,6 +27,7 @@
   <scripts name="scripts">
     <scripts name="Dan's Script">
       <script>scripts\scr_menu.gml</script>
+      <script>scripts\scr_menustart.gml</script>
     </scripts>
     <scripts name="Chris scripts">
       <script>scripts\Scr_CreateChar.gml</script>
@@ -53,8 +54,12 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Dan's Rooms">
+      <room>rooms\room_startmenu</room>
       <room>rooms\room_menu</room>
       <room>rooms\next_room</room>
+    </rooms>
+    <rooms name="Chris's Rooms">
+      <room>rooms\Rm_CreateChar</room>
     </rooms>
   </rooms>
   <help>
