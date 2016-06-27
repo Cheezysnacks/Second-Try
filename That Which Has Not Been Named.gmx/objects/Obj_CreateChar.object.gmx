@@ -84,8 +84,10 @@ if move != 0
 }
 
 var select = 0 ;
-select += max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space),0);
-if (select == 1) Scr_CreateChar();
+select += max(keyboard_check_pressed(vk_enter),keyboard_check_pressed(vk_shift),keyboard_check_pressed(vk_space),0);
+if (select == 1) Scr_CreateGender();
+if (select == 1) Scr_CreateClass();
+if (select == 1) Scr_CreateAttune();
 </string>
           </argument>
         </arguments>

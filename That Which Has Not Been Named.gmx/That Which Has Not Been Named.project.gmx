@@ -30,7 +30,9 @@
       <script>scripts\scr_menustart.gml</script>
     </scripts>
     <scripts name="Chris scripts">
-      <script>scripts\Scr_CreateChar.gml</script>
+      <script>scripts\Scr_CreateGender.gml</script>
+      <script>scripts\Scr_CreateClass.gml</script>
+      <script>scripts\Scr_CreateAttune.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
