@@ -29,6 +29,7 @@
   <objects name="objects">
     <objects name="Dan's Objects">
       <object>objects\obj_menu</object>
+      <object>objects\obj_startmenu</object>
     </objects>
   </objects>
   <rooms name="rooms">
