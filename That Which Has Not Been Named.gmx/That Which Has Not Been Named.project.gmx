@@ -56,6 +56,7 @@
       <room>rooms\room_menu</room>
       <room>rooms\next_room</room>
     </rooms>
+    <room>rooms\Rm_CreateChar</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
