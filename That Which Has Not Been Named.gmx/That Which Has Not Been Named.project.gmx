@@ -7,19 +7,42 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite2</sprite>
+    <sprites name="Chris Sprites">
+      <sprite>sprites\Spr_Female</sprite>
+      <sprite>sprites\Spr_Male</sprite>
+      <sprite>sprites\Spr_Arrow</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <backgrounds name="Chris Background">
+      <background>background\Bkg_createchar</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <scripts name="Chris Scripts">
+      <script>scripts\Scr_CreateChar.gml</script>
+    </scripts>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
+    <fonts name="Chris Fonts">
+      <font>fonts\Fnt_CreateChar</font>
+    </fonts>
   </fonts>
   <objects name="objects">
     <object>objects\obj_menu</object>
+    <objects name="Chris Objects">
+      <object>objects\Obj_Player</object>
+      <object>objects\Obj_Character</object>
+      <object>objects\Obj_CreateChar</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="Chris Rooms">
+      <room>rooms\Rm_CreateChar</room>
+    </rooms>
     <room>rooms\menu</room>
   </rooms>
   <help>
