@@ -90,6 +90,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="movement and collision">
+      <room>rooms\rm_test</room>
+    </rooms>
     <rooms name="Dan's Rooms">
       <room>rooms\room_menu</room>
       <room>rooms\room_startmenu</room>
@@ -97,9 +100,6 @@
     </rooms>
     <rooms name="Chris's Rooms">
       <room>rooms\Rm_CreateChar</room>
-    </rooms>
-    <rooms name="movement and collision">
-      <room>rooms\rm_test</room>
     </rooms>
   </rooms>
   <help>
