@@ -45,8 +45,8 @@
   </fonts>
   <objects name="objects">
     <objects name="Dan's Objects">
-      <object>objects\obj_menu</object>
       <object>objects\obj_startmenu</object>
+      <object>objects\obj_menu</object>
     </objects>
     <objects name="Chris objects">
       <object>objects\Obj_Player</object>
