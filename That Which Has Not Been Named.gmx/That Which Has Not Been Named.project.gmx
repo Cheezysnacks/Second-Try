@@ -3,7 +3,9 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Top Down Movement and Collision</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Dan's Sprites">
@@ -14,6 +16,17 @@
       <sprite>sprites\Spr_Male</sprite>
       <sprite>sprites\Spr_Female</sprite>
     </sprites>
+    <sprites name="movement and collison">
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_thin_wall_vert</sprite>
+      <sprite>sprites\spr_ramp_tr</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_ramp_bl</sprite>
+      <sprite>sprites\spr_soft_wall</sprite>
+      <sprite>sprites\spr_ramp_tl</sprite>
+      <sprite>sprites\spr_ramp_br</sprite>
+      <sprite>sprites\spr_thin_wall_hori</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Dan's Backgrounds">
@@ -21,6 +34,9 @@
     </backgrounds>
     <backgrounds name="Chris backgrounds">
       <background>background\Bkg_createchar</background>
+    </backgrounds>
+    <backgrounds name="Movement and Collision">
+      <background>background\bkg_tile</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -33,6 +49,12 @@
       <script>scripts\Scr_CreateGender.gml</script>
       <script>scripts\Scr_CreateClass.gml</script>
       <script>scripts\Scr_CreateAttune.gml</script>
+    </scripts>
+    <scripts name="Movement and Collision">
+      <script>scripts\movement_and_collision.gml</script>
+      <script>scripts\player_read_controls.gml</script>
+      <script>scripts\wall_escape.gml</script>
+      <script>scripts\place_meeting_round.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -53,6 +75,19 @@
       <object>objects\Obj_Character</object>
       <object>objects\Obj_CreateChar</object>
     </objects>
+    <objects name="Walls">
+      <objects name="Movement/Collision Files">
+        <object>objects\obj_wall_base</object>
+        <object>objects\obj_wall_thin_vert</object>
+        <object>objects\obj_wall_tl</object>
+        <object>objects\obj_wall_bl</object>
+        <object>objects\obj_wall_br</object>
+        <object>objects\obj_wall_thin_hori</object>
+        <object>objects\obj_wall_octo</object>
+        <object>objects\obj_wall_tr</object>
+        <object>objects\obj_player</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Dan's Rooms">
@@ -62,6 +97,9 @@
     </rooms>
     <rooms name="Chris's Rooms">
       <room>rooms\Rm_CreateChar</room>
+    </rooms>
+    <rooms name="movement and collision">
+      <room>rooms\rm_test</room>
     </rooms>
   </rooms>
   <help>
