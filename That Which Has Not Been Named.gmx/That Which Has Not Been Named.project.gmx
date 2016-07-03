@@ -15,6 +15,7 @@
       <sprite>sprites\Spr_Arrow</sprite>
       <sprite>sprites\Spr_Male</sprite>
       <sprite>sprites\Spr_Female</sprite>
+      <sprite>sprites\spr_courser</sprite>
     </sprites>
     <sprites name="movement and collison">
       <sprite>sprites\spr_player</sprite>
@@ -34,6 +35,7 @@
     </backgrounds>
     <backgrounds name="Chris backgrounds">
       <background>background\Bkg_createchar</background>
+      <background>background\bkg__move_test</background>
     </backgrounds>
     <backgrounds name="Movement and Collision">
       <background>background\bkg_tile</background>
@@ -74,6 +76,7 @@
       <object>objects\Obj_Player</object>
       <object>objects\Obj_Character</object>
       <object>objects\Obj_CreateChar</object>
+      <object>objects\obj_courser</object>
     </objects>
     <objects name="Walls">
       <objects name="Movement/Collision Files">
@@ -100,6 +103,7 @@
     </rooms>
     <rooms name="Chris's Rooms">
       <room>rooms\Rm_CreateChar</room>
+      <room>rooms\rm_test_move</room>
     </rooms>
   </rooms>
   <help>
