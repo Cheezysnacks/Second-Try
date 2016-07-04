@@ -16,6 +16,10 @@
       <sprite>sprites\Spr_Male</sprite>
       <sprite>sprites\Spr_Female</sprite>
       <sprite>sprites\spr_courser</sprite>
+      <sprite>sprites\spr_move</sprite>
+      <sprite>sprites\spr_attack</sprite>
+      <sprite>sprites\spr_items</sprite>
+      <sprite>sprites\spr_spells</sprite>
     </sprites>
     <sprites name="movement and collison">
       <sprite>sprites\spr_player</sprite>
@@ -51,6 +55,7 @@
       <script>scripts\Scr_CreateGender.gml</script>
       <script>scripts\Scr_CreateClass.gml</script>
       <script>scripts\Scr_CreateAttune.gml</script>
+      <script>scripts\scr_turn_options.gml</script>
     </scripts>
     <scripts name="Movement and Collision">
       <script>scripts\movement_and_collision.gml</script>
@@ -77,6 +82,12 @@
       <object>objects\Obj_Character</object>
       <object>objects\Obj_CreateChar</object>
       <object>objects\obj_courser</object>
+      <object>objects\obj_creature</object>
+      <object>objects\obj_move</object>
+      <object>objects\obj_turn_options</object>
+      <object>objects\obj_attack</object>
+      <object>objects\obj_items</object>
+      <object>objects\obj_spells</object>
     </objects>
     <objects name="Walls">
       <objects name="Movement/Collision Files">
@@ -93,6 +104,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_test_move</room>
     <rooms name="movement and collision">
       <room>rooms\rm_test</room>
     </rooms>
@@ -103,7 +115,6 @@
     </rooms>
     <rooms name="Chris's Rooms">
       <room>rooms\Rm_CreateChar</room>
-      <room>rooms\rm_test_move</room>
     </rooms>
   </rooms>
   <help>
